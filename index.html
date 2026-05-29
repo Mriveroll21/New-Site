@@ -1,26 +1,49 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Aliya X Anos</title>
+    <meta charset="UTF-8">
+    <title>Background Image Website</title>
+
     <style>
         body {
-            font-family: Arial;
-            background-color: #f4f4f4;
+            margin: 0;
+            height: 100vh;
+            
+            /* Background image */
+            background-image: url("newpic.jpg");
+
+            /* Make it cover entire screen */
+            background-size: cover;
+
+            /* Center the image */
+            background-position: center;
+
+            /* Prevent repeating */
+            background-repeat: no-repeat;
+
+            /* Optional: smooth scaling */
+            background-attachment: fixed;
+
+            /* Text styling */
+            font-family: Arial, sans-serif;
+            color: white;
             text-align: center;
         }
-        img {
-            border-radius: 10px;
+
+        .content {
+            padding-top: 20%;
+            background-color: rgba(0, 0, 0, 0.4); /* optional overlay */
+            height: 100%;
         }
     </style>
-
 </head>
+
 <body>
 
-    <h1>Thank you for Comming i hope you all Enjoy</h1>
-    <p>Alya X años.</p>
-
-    <img src="newpic.jpg" alt="My Image" width="1000">
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This website has a full background image.</p>
+    </div>
 
 </body>
 </html>
